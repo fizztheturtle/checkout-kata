@@ -41,7 +41,7 @@ namespace checkout_kataTests
 
 
         [Test]
-        public void scan_IsTotal269WithOneOfEachStockAndTwoBananas_true()
+        public void scan_IsTotal254WithOneOfEachStockAndTwoBananas_true()
         {
             Basket.Scan(Stock.Apple);
             Basket.Scan(Stock.Banana);
